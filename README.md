@@ -33,8 +33,7 @@ void setup() {
     pinMode(TRIGGER, OUTPUT);
     pinMode(BUZZER, OUTPUT);
 
-     apagarLEDs();     
-    
+     apagarLEDs();         
     servoMotor.attach(8); // PIN 8 SERVOMOTOR 
     }
     
